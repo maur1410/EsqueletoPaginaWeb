@@ -1,25 +1,48 @@
 body{
-    width: 100%;
-    height: 100vh;
+    width: 100%; 
+    height: 100vh; 
     height: 100vb;
-    background-image: url(img/ec.webp);
+    background-image: url(img/ec.webp); 
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
-.container{
-    max-width: 1280bx;
-    margin: 0 auto;
 
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
 } 
+
 form{
-    background-color: aliceblue;
-    max-width: 50px;
-    height: 650px;
-    padding: 40px;
-    border-radius: 20px;
+    backdrop-filter: blur(0px); 
+    max-width: 700px;
+    height: 700px;
+    padding: 50px;
+    border-radius: 20px; 
 }  
+input{
+    height: 30px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #ffff;
+    padding: 0 0 0 45px;
+    background: rgba(205, 205, 205, 0.4) 
+}
+form {
+    color:aliceblue
+}
+.limpatudo{
+    background-color: black;
+        
+}
+.finalizarcadastro{
+    background-color: black;
+}
+
