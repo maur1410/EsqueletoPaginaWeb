@@ -4,11 +4,12 @@ body{
     height: 100vb;
     background-image: url(img/ec.webp); 
     background-position: center;
-    background-repeat: no-repeat; /
+    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+
     
 }
 
@@ -31,7 +32,7 @@ input{
     border: none;
     outline: none;
     border-radius: 30px;
-    color: #ffff;
+    color: black;
     padding: 0 0 0 45px;
     background: rgba(205, 205, 205, 0.4) 
 }
@@ -39,10 +40,11 @@ form {
     color:aliceblue
 }
 .limpatudo{
-    background-color: black;
+    background: rgba(205, 205, 205, 0.7)
+
         
 }
 .finalizarcadastro{
-    background-color: black;
+    background-color: rgba(205, 205, 205, 0.7);
 }
 
